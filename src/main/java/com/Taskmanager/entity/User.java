@@ -26,7 +26,7 @@ public class User {
 	    private String password;
 
 
-	    @OneToMany(mappedBy = "user")  // Renamed from "assignedUser"
+	    @OneToMany(mappedBy = "user") 
 	    private List<Task> tasks;
 
 	
